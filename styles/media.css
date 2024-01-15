@@ -1,0 +1,21 @@
+@media screen and (max-width:576px) {
+  .header_part,
+  .input-field{
+    flex-direction: column;
+  }
+  .banner-text h3{
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 800;
+}
+.banner-text p{
+  font-size: 10px;
+}
+.banner-text{
+  padding-top: 5%;
+}
+.banner{
+  width: 90%;
+  margin: 20px auto;
+}
+}

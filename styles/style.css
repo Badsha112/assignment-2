@@ -1,0 +1,132 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+/* common styles */
+:root{
+  --common-color : #FF5400; 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Header part style  */
+header{
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.header_part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logo img{
+  width: 55px;
+  height: 60px;
+}
+.logo .name{
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.logo .travel{
+  color: #FF5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  padding-right: 20px;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+nav ul li .home{
+  color: #FF5400;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.banner{
+  height: 500px;
+  background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text{
+  height: 500px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+  text-align: center;
+  padding-top: 10%;
+}
+.banner-text h3{
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-text p{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 30px 15%;
+}
+.input-field{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+}
+.input-icon{
+  position: relative;
+}
+.input-icon i{
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  color: rgba(19, 19, 24, 0.50);
+}
+input{
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FFF;
+  border:0;
+  padding-left: 10px;
+}
+.btn{
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+}
+/* Header Part End  */
+/* Media quari For Mobile devise */
+@media screen and (max-width:576px){
+  
+}
