@@ -290,6 +290,103 @@ input{
   font-size: 28px;
   font-weight: 800;
 }
+/* Destination Part End  */
+/* Why Choose Us */
+.why-chose-us{
+  max-width: 1250px;
+  margin: 20px auto;
+}
+.why-chose-text h3{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.why-chose-text p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 20%;
+}
+.card{
+  width: 573px;
+  height: 270px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 40px 20px;
+}
+.card img{
+  width: 64px;
+  height: 64px;
+}
+.card h4{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-1 img{
+  width: 64px;
+  height: 64px;
+}
+.card-1 h4{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-1 p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-2 img{
+  width: 64px;
+  height: 64px;
+}
+.card-2 h4{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-2 p{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.card-1{
+  width: 573px;
+  height: 270px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 40px 20px;
+}
+.card-2{
+  width: 573px;
+  height: 270px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 40px 20px;
+}
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+/* Why Choose Us part End */
+
 
 
 /* Media quari For Mobile devise */
