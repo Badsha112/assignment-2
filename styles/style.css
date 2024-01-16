@@ -460,6 +460,7 @@ input{
   font-weight: 800;
   text-align: center;
 }
+
  /* Newsletter End */
  footer{
   width: 100%;
@@ -511,51 +512,55 @@ footer > p{
   text-align: center;
   margin-top: 20px;
 }
-/* Media quari For Mobile devise */
-@media screen and (max-width:576px){
-  .header_part,
-  .input-field,
-  .Tours,
-  .Newsletter{
-    flex-direction: column;
-  }
-  .banner-text h3{
+.extra{
+  max-width: 1250px;
+  margin: 0 auto;
+  height: 600px;
+  background-image: url('../ifel_twer.jpg');
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.text-extra{
+  width: 50%;
+  padding:20% 20px ;
+}
+.text-extra h2{
   color: #FFF;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 800;
+  text-align: center;
 }
-.banner-text p{
-  font-size: 10px;
+.text-extra p{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
 }
-.banner-text{
-  padding-top: 5%;
+.h1{
+  color: #000000;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
 }
-.form,
-.form-img,
-.banner{
-  width: 90%;
-  margin: 20px auto;
+.color{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: #e768e7df;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 50%;
 }
-.form-img img{
-width: 100%;
-margin: 10px auto;
-}
-.text-tour , .tour-img{
-  width: 90%;
-  margin: 20px auto;
+.color h4{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 70px;;
 }
 
-.destination-img{
-  display: flex;
-  flex-direction: column;
-}
-.img-text{
-  width: 300px;
-  height: 100px;
-  right: 20px;
-  bottom: 60px;
-}
-.line{
-  width: 522px;
-}
-}
+
+

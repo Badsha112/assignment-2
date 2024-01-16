@@ -1,3 +1,68 @@
-@media screen and (max-width:576px) {
+/* Media quari For Mobile devise */
+@media screen and (max-width:576px){
+  .header_part,
+  .input-field,
+  .Tours,
+  .Newsletter{
+    flex-direction: column;
+  }
+  .banner-text h3{
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 800;
+}
+.banner-text p{
+  font-size: 10px;
+}
+.banner-text{
+  padding-top: 5%;
+}
+.form,
+.form-img,
+.banner{
+  width: 90%;
+  margin: 20px auto;
+}
+.form{
+  width: 450px;
+}
+.form-img img{
+width: 100%;
+margin: 10px auto;
+}
+.text-tour , .tour-img{
+  width: 90%;
+  margin: 20px auto;
+}
 
+.destination-img{
+  display: flex;
+  flex-direction: column;
+}
+.img-text{
+  width: 300px;
+  height: 100px;
+  right: 20px;
+  bottom: 60px;
+}
+.line{
+  width: 70%;
+}
+.form input{
+  width: 320px;
+}
+.form p{
+  font-size: 12px;
+}
+.form .btn-subs{
+  width: 320px;
+}
+.extra{
+  max-width: 90%;
+  height: 650px;
+  margin: 0 auto;
+  background-size: cover;
+  object-fit: cover;
+  text-align: center;
+}
 }
